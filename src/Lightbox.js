@@ -110,7 +110,6 @@ class Lightbox extends Component {
 
 	preloadImage (idx, onload) {
 		const data = this.props.images[idx];
-
 		if (!data) return;
 
 		const img = new Image();

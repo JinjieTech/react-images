@@ -23,7 +23,6 @@ function Arrow ({
 			type="button"
 			className={css(classes.arrow, classes['arrow__direction__' + direction], size && classes['arrow__size__' + size])}
 			onClick={onClick}
-			onTouchEnd={onClick}
 			{...props}
 		>
 			<Icon fill={!!theme.arrow && theme.arrow.fill || defaults.arrow.fill} type={icon} />
